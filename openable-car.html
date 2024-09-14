@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CAR</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="car.css" />
+  </head>
+  <body>
+    <div class="car">
+      <div class="bonet">
+        <div class="top">
+          <div class="mirror"></div>
+        </div>
+
+        <div class="bottom">
+          <div class="wiper">
+            <input type="checkbox" id="w-left" />
+            <div class="w-left"></div>
+            <input type="checkbox" id="w-right" />
+            <div class="w-right"></div>
+          </div>
+
+          <div class="light">
+            <input type="checkbox" id="light-l" />
+            <div class="i-light"></div>
+          </div>
+
+          <div class="logo">
+            <span>J</span>
+          </div>
+
+          <div class="light">
+            <input type="checkbox" id="light-r" />
+            <div class="i-light"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="sidebar">
+
+        <div class="in-door">
+          <div class="door door-4" id="door4">
+            <div class="d-mirror">
+              <input type="checkbox" id="gm-four" />
+              <div class="g-mirror" id="g-four"></div>
+            </div>
+            <div class="o-fuel">
+              <input type="checkbox" id="c-fuel">
+              <div class="fuel"><span><i class="fa-solid fa-gas-pump"></i></span></div>
+              </div>
+          </div>
+  
+        </div>
+       
+        <div class="in-door">
+          <input type="checkbox" id="o-door-3" />
+
+        
+        <div class="door door-1" id="door3">
+          <div class="d-mirror">
+            <input type="checkbox" id="gm-one" />
+            <div class="g-mirror" id="g-one"></div>
+          </div>
+          <div class="handle" id="h-1"></div>
+          
+        </div>
+
+        </div>
+        
+        <div class="in-door">
+          <input type="checkbox" id="o-door-2" />
+        <div class="door door-2" id="door2">
+          <div class="d-mirror">
+            <input type="checkbox" id="gm-two" />
+            <div class="g-mirror" id="g-two"></div>
+          </div>
+          <div class="handle" id="h-2"></div>
+        </div>
+
+        </div>
+        
+        <div class="in-door">
+          <input type="checkbox" id="o-door-1" />
+        <div class="door door-3" id="door1">
+          
+          <div class="d-mirror" id="mirror-1">
+            <input type="checkbox" id="gm-three" />
+            <div class="g-mirror" id="g-three"
+            >
+           <!-- <span><i class="fa-solid fa-paint-roller"></i></span>  -->
+          </div>
+          </div>
+          <div class="handle" id="h-3"></div>
+          
+        </div>
+
+        </div>
+        
+       
+        <div class="tyer" id="one">
+          <input type="checkbox" id="w-forward-f" />
+          <div class="loader"></div>
+        </div>
+        <div class="tyer" id="two">
+          <input type="checkbox" id="w-forward-s" />
+          <div class="loader"></div>
+        </div>
+      </div>
+    </div>
+    <div class="controls">
+      <div class="c-fuel">
+        <label for="c-fuel"><span>Fuel</span><img src="open-car/gas-station.png" alt=""></label>
+      </div>
+      
+      <!-- Wheel -->
+      <div class="c-wheels">
+        <label for="w-forward-f"
+          ><span>L</span>
+          <img src="open-car/car.png" alt="" />
+        </label>
+        <label for="w-forward-s"
+          ><span>R</span> <img src="open-car/car.png" alt=""
+        /></label>
+      </div>
+      <!-- Mirror -->
+      <div class="c-glass-mirror">
+        <label for="gm-three"
+          ><span>1</span><img src="open-car/window.png" alt=""
+        /></label>
+        <label for="gm-two">
+          <span>2</span><img src="open-car/window.png" alt="" />
+        </label>
+        <label for="gm-one"
+          ><span>3</span><img src="open-car/window.png" alt=""
+        /></label>
+        <label for="gm-four"
+          ><span>4</span><img src="open-car/window.png" alt=""
+        /></label>
+      </div>
+
+      <!-- light -->
+      <div class="c-lights">
+        <label for="light-l"
+          ><span>L</span><img src="open-car/car-lights.png" alt=""
+        /></label>
+        <label for="light-r"
+          ><span>R</span><img src="open-car/car-lights.png" alt=""
+        /></label>
+      </div>
+      <!-- Wiper -->
+      <div class="c-wipers">
+        <label for="w-left"
+          ><span>L</span><img src="open-car/wiper.png" alt=""
+        /></label>
+        <label for="w-right"
+          ><span>R</span><img src="open-car/wiper.png" alt=""
+        /></label>
+      </div>
+      <!-- Door -->
+      <div class="c-door">
+        <label for="o-door-1"
+          ><span>1</span><img src="open-car/car-door.png" alt=""
+        /></label>
+        <label for="o-door-2"
+          ><span>2</span><img src="open-car/car-door.png" alt=""
+        /></label>
+        <label for="o-door-3"
+          ><span>3</span><img src="open-car/car-door.png" alt=""
+        /></label>
+      </div>
+    </div>
+  </body>
+</html>
+
+<!-- 
+/* HTML: <div class="loader"></div> */
+.loader {
+  width: 50px;
+  aspect-ratio: 1;
+  color: #854f1d;
+  border-radius: 50%;
+  display: grid;
+  background: 
+    conic-gradient(from 90deg at 4px 4px,#0000 90deg,currentColor 0)
+    -4px -4px/calc(50% + 2px) calc(50% + 2px),
+    radial-gradient(farthest-side,currentColor 6px,#0000 7px calc(100% - 6px),currentColor calc(100% - 5px)) no-repeat;
+  animation: l10 2s infinite linear;
+  position: relative;
+}
+.loader:before {
+  content: "";
+  border-radius: inherit;
+  background: inherit;
+  transform: rotate(45deg);
+}
+@keyframes l10 {to{transform: rotate(.5turn)}} -->
