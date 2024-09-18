@@ -113,22 +113,22 @@ body {
   transform: rotate(90deg);
 }
 #gm-one:checked + #g-one {
-  transition: all 1200ms;
+  transition: all 2100ms;
   transform: translateY(72px);
   opacity: 0.1;
 }
 #gm-two:checked + #g-two {
-  transition: all 1200ms;
+  transition: all 2100ms;
   transform: translateY(72px);
   opacity: 0.1;
 }
 #gm-three:checked + #g-three {
-  transition: all 1200ms;
+  transition: all 2100ms;
   transform: translateY(72px);
   opacity: 0.1;
 }
 #gm-four:checked + #g-four {
-  transition: all 1200ms;
+  transition: all 2100ms;
   transform: translateY(72px);
   opacity: 0.1;
 }
@@ -290,6 +290,7 @@ transform: translateX(-180px);
 @keyframes l10 {
   to {
     transform: rotate(0.5turn);
+    
   }
 }
 
@@ -399,11 +400,11 @@ input {
 }
 .o-fuel {
   align-self: center;
-  height: 15.3%;
-  width: 24.3%;
-  border: 1px solid silver;
+  height: 18.3%;
+  width: 27.3%;
+  border: 2px solid rgb(114, 100, 100);
   border-radius: 50%;
-  background-color: whitesmoke;
+  background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
