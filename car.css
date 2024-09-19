@@ -210,7 +210,7 @@ body {
 
 #o-door-2:checked + #door2 {
   transition: all 1800ms;
-  transform: translateX(-280px);
+  transform: translateX(-270px);
 
   
 }
@@ -219,7 +219,7 @@ body {
 transition:all 1800ms;
 
 /* transform: rotateY(-180deg); */
-transform: translateX(-180px);
+transform: translateX(-154px);
 
 }
 
